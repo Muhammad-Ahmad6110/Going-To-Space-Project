@@ -1,0 +1,136 @@
+script+iframe{
+    display: none !important;
+}
+svg.bubbles {
+    position: absolute;
+    top: -4000px;
+    left: -4000px;
+  }
+
+  .Mint-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 25px;
+    font-family: "chelsea market";
+    border: none;
+    /* position: relative; */
+    margin: auto;
+    color: white;
+    background-color: #4bc28e ;
+    transition: .2s;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .Mint-button:hover{
+    color: #4bc28e ;
+    background-color: white;
+    transition: .2s;
+    border-radius: 10px;
+
+  }
+
+  .trans2 {
+    background-color: #d4514f !important;
+  }
+  .trans2:hover{
+    color: #d4514f !important;
+    background-color: white !important;
+  }
+  .trans3 {
+    background-color: #515cda !important;
+  }
+  .trans3:hover{
+    color: #515cda !important;
+    background-color: white !important;
+  }
+ 
+.alie1 {
+    width: 200px !important;
+    max-width: 100%;
+    margin-top: -270px;
+    margin-right: 150px !important;
+  }
+  .count {
+    color: white;
+    background-color: #414141;
+    font-size: 22px;
+  }
+  
+  .quantity {
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+  }
+  
+  .btn.focus,
+  .btn:focus {
+    box-shadow: none;
+  }
+  @media only screen and (max-width: 600px) {
+    .sev {
+      font-size: 70px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .tbd {
+      font-size: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #gooey-button {
+      font-size: 35px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  .opt {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    max-width: 490px;
+  }
+  
+  .uty {
+    /* padding-top: 250px; */
+  }
+  #gooey-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #cb1717;
+  }
+  #gooey-button:hover .bubble {
+    background-color: white;
+  }
+  .maxbtn {
+    line-height: 0.9em;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+.opt {
+    background-color: #cb171752;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    max-width: 490px;
+  }
+
+  .quantityselector {
+    z-index: 10;
+    position: relative;
+  }
